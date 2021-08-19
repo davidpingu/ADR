@@ -339,6 +339,14 @@ btnRegistrar.addEventListener("click", function () {
         document.getElementById("camara").style.display = "none";
         document.getElementById("ingreso").style.display = "block";
       } 
+
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('../sw.js').then( () => {
+            console.log('Service Worker Registered')
+          });
+        });
+      }
       
       function mensajes(){
         redactar.style.display = "block";
@@ -380,5 +388,3 @@ btnRegistrar.addEventListener("click", function () {
         window.open("http://www.openstreetmap.org/?mlat=" + coordenadas.lat + "&mlon=" + coordenadas.lon + "&zoom=20");
         //window.open abrir enlace en otra pestaña del nav
       });
-      
-
