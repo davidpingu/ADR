@@ -1,0 +1,111 @@
+#Titulo {
+    font-size: 22px; 
+    color:rgb(42, 177, 177);
+    
+}
+
+#bienvenida{
+  width: 100%;
+  color:#2980b9;
+  font-size: 16px;
+}
+
+#menu{
+  width: 100%;
+}
+
+
+
+#registro,#principal,#camara{
+    display: none;
+}
+
+.titulo{
+  text-align: center;
+  font-size: 18px;
+  color:rgb(29, 116, 116);
+  width: 100%;
+}
+
+.bienvenida{
+  text-align: center;
+  font-size: 18px;
+  color:rgb(49, 41, 218);
+  width: 100%;
+}
+
+.menu{
+  width: 0%;
+  height: 100%;
+  position: fixed;
+  top:0;
+  left: 0;
+  background-color: black;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+  z-index: 1;
+}
+
+.botonCerrar{
+  position: absolute;
+  top:0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  color: rgb(245, 83, 42);
+  text-decoration: none;
+}
+
+.btn {
+    background: #32d9d9;
+    background-image: -webkit-linear-gradient(top, #32d9d9, #2980b9);
+    background-image: -moz-linear-gradient(top, #32d9d9, #2980b9);
+    background-image: -ms-linear-gradient(top, #32d9d9, #2980b9);
+    background-image: -o-linear-gradient(top, #32d9d9, #2980b9);
+    background-image: linear-gradient(to bottom, #32d9d9, #2980b9);
+    -webkit-border-radius: 11;
+    -moz-border-radius: 11;
+    border-radius: 11px;
+    font-family: Arial;
+    color: #000000;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+
+  .errorCampo {
+
+    border-color: crimson;
+    border-width: 2px;
+
+  }
+
+  .opciones{
+    text-decoration: none;
+    color: #2980b9;
+    padding-left: 20px;
+}
+
+.opciones:visited{
+    color: #2980b9;
+}
+
+.inputget{
+  display: none;
+}
+
+.container-photo{
+  background-color: #2980b9;
+  margin-bottom: 3px;
+  text-align: center;
+}
+
+.photo{
+  height: 200px;
+  object-fit: cover;
+}
+
+.iconoAzul{
+  color: rgb(42, 177, 177);
+}
